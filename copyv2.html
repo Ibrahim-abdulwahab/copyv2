@@ -1,0 +1,73 @@
+<html>
+ <head>
+    <style>
+        h1{
+            text-align: center;
+            color: brown;
+            font-family: monospace
+        }
+        header{
+            margin: auto;
+            background-color:white;
+            width:50%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        body{
+            margin: 30px;
+            background-color:gray;
+        }
+        .main{
+            display: flex;
+            margin: auto;
+            background-color: darkgrey;
+            width: 50%;
+            justify-content:space-around;
+        }
+        .main2{
+            display: flex;
+            margin: auto;
+            background-color: darkgrey;
+            width: 50%;
+            justify-content:flex-start;
+        }
+        .othermain{
+            margin: auto;
+            background-color: darkgrey;
+            width: 50%;
+            padding-top:40px;
+        }
+        label{
+            color: darkred;
+            padding-right:10px;
+            padding-left:26px;
+        }
+        .Sub1{
+            padding-top:10px;
+        }
+    </style>
+ </head>
+ <body>
+    <header>
+        <h1>Follow Up Survey</h1>
+    </header>
+  <div class="main">
+<div class="Sub1"><label for="calander"><b>When did you use our services?</b></label>
+    <input type="date" name="calander" style="width:85%;height:30px;margin-top:5px;
+    margin-left:30px;" value="2018-07-22" min="2018-01-01" max="2024-12-31"><br/><u style="color:blue;margin-top:5px;
+    margin-left:30px;">Done</u></div>
+<div class="Sub1"><label for="name"><b>Name of product or service</b></label>
+    <input type="text" style="width:70%;height:30px;margin-top:5px;margin-left:30px;"></div>
+  </div>
+  <div class="othermain" >
+    <label for="satisfied">Overall, how satisfied are you with the product or service?</label></div>
+<div class="main2">
+        <div style="padding-left:20px;"><input type="radio" name="satisfaction" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Very satisfied</label><br/>
+            <input type="radio" name="satisfaction" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Neutral</label><br/>
+            <input type="radio" name="satisfaction" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Very unsatisfied</label></div>
+            <div style="padding-left:175px;"><input type="radio" name="satisfaction" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Satisfied</label><br/>
+            <input type="radio" name="satisfaction" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Unsatisfied</label><br/>
+            <input type="radio" name="satisfaction" style="margin-top:15px;"><label style="color:red;padding-left:0px;">N/A</label></div>
+    </div>  
+ </body>   
+</html>
