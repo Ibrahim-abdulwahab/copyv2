@@ -43,10 +43,16 @@
             width: 50%;
             padding-top:40px;
         }
-        label{
+        .label1{
             color: darkred;
             padding-right:10px;
             padding-left:26px;
+        }
+        .label2{
+            color: red;
+            padding-right:10px;
+            padding-left:26px;
+            padding-left:0px;
         }
         .Sub1{
             padding-top:10px;
@@ -58,53 +64,53 @@
         <h1>Follow Up Survey</h1>
     </header>
   <div class="main">
-<div class="Sub1"><label for="calander"><b>When did you use our services?</b></label>
+<div class="Sub1"><label class="label1" for="calander"><b>When did you use our services?</b></label>
     <input type="date" name="calander" style="width:85%;height:30px;margin-top:5px;
     margin-left:30px;" value="2018-07-22" min="2018-01-01" max="2024-12-31"><br/><u style="color:blue;margin-top:5px;
     margin-left:30px;">Done</u></div>
-<div class="Sub1"><label for="name"><b>Name of product or service</b></label>
+<div class="Sub1"><label class="label1" for="name"><b>Name of product or service</b></label>
     <input type="text" style="width:70%;height:30px;margin-top:5px;margin-left:30px;"></div>
   </div>
   <div class="othermain" >
-    <label for="satisfied">Overall, how satisfied are you with the product or service?</label></div>
+    <label class="label1" for="satisfied">Overall, how satisfied are you with the product or service?</label></div>
 <div class="main2">
-        <div style="padding-left:20px;"><input type="radio" name="satisfaction" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Very satisfied</label><br/>
-            <input type="radio" name="satisfaction" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Neutral</label><br/>
-            <input type="radio" name="satisfaction" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Very unsatisfied</label></div>
-            <div style="padding-left:175px;"><input type="radio" name="satisfaction" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Satisfied</label><br/>
-            <input type="radio" name="satisfaction" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Unsatisfied</label><br/>
-            <input type="radio" name="satisfaction" style="margin-top:15px;"><label style="color:red;padding-left:0px;">N/A</label></div>
+        <div style="padding-left:20px;"><input type="radio" name="satisfaction" style="margin-top:15px;"><label class="label2">Very satisfied</label><br/>
+            <input type="radio" name="satisfaction" style="margin-top:15px;"><label class="label2">Neutral</label><br/>
+            <input type="radio" name="satisfaction" style="margin-top:15px;"><label class="label2">Very unsatisfied</label></div>
+            <div style="padding-left:175px;"><input type="radio" name="satisfaction" style="margin-top:15px;"><label class="label2">Satisfied</label><br/>
+            <input type="radio" name="satisfaction" style="margin-top:15px;"><label class="label2">Unsatisfied</label><br/>
+            <input type="radio" name="satisfaction" style="margin-top:15px;"><label class="label2">N/A</label></div>
     </div> 
 <div class="othermain" >
-    <label for="expectation">Do our product meet your expectation</label></div>
+    <label class="label1" for="expectation">Do our product meet your expectation</label></div>
     <div class="main2">
-    <div style="padding-left:20px;"><input type="radio" name="expectation" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Yes</label></div>
-    <div style="padding-left:255px;"><input type="radio" name="expectation" style="margin-top:15px;"><label style="color:red;padding-left:0px;">No</label></div>
+    <div style="padding-left:20px;"><input type="radio" name="expectation" style="margin-top:15px;"><label class="label2">Yes</label></div>
+    <div style="padding-left:255px;"><input type="radio" name="expectation" style="margin-top:15px;"><label class="label2">No</label></div>
 </div>
 <div class="othermain" >
-    <label for="reccomend">Would you reccomend this picture to a friend</label></div>
+    <label class="label1" for="reccomend">Would you reccomend this picture to a friend</label></div>
     <div class="main2">
-    <div style="padding-left:20px;"><input type="radio" name="reccomend" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Yes</label></div>
-    <div style="padding-left:255px;"><input type="radio" name="reccomend" style="margin-top:15px;"><label style="color:red;padding-left:0px;">No</label></div>
+    <div style="padding-left:20px;"><input type="radio" name="reccomend" style="margin-top:15px;"><label class="label2">Yes</label></div>
+    <div style="padding-left:255px;"><input type="radio" name="reccomend" style="margin-top:15px;"><label class="label2">No</label></div>
 </div>
 <div class="othermain" >
-    <label for="most">What aspect of the product or service were you most satisfied by?</label></div>
+    <label class="label1" for="most">What aspect of the product or service were you most satisfied by?</label></div>
 <div class="main2">
-    <div style="padding-left:20px;"><input type="radio" name="most" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Quality</label><br/>
-        <input type="radio" name="most" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Customer service</label></div>
-        <div style="padding-left:175px;"><input type="radio" name="most" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Price</label><br/>
-        <input type="radio" name="most" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Instalation or first use experience</label></div>
+    <div style="padding-left:20px;"><input type="radio" name="most" style="margin-top:15px;"><label class="label2">Quality</label><br/>
+        <input type="radio" name="most" style="margin-top:15px;"><label class="label2">Customer service</label></div>
+        <div style="padding-left:175px;"><input type="radio" name="most" style="margin-top:15px;"><label class="label2">Price</label><br/>
+        <input type="radio" name="most" style="margin-top:15px;"><label class="label2">Instalation or first use experience</label></div>
 </div>
 <div class="othermain" >
-    <label for="least">What aspect of the product or service were you least satisfied by?</label></div>
+    <label class="label1" for="least">What aspect of the product or service were you least satisfied by?</label></div>
 <div class="main2">
-    <div style="padding-left:20px;"><input type="radio" name="least" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Quality</label><br/>
-        <input type="radio" name="least" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Customer service</label></div>
-        <div style="padding-left:175px;"><input type="radio" name="least" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Price</label><br/>
-        <input type="radio" name="least" style="margin-top:15px;"><label style="color:red;padding-left:0px;">Instalation or first use experience</label></div>
+    <div style="padding-left:20px;"><input type="radio" name="least" style="margin-top:15px;"><label class="label2">Quality</label><br/>
+        <input type="radio" name="least" style="margin-top:15px;"><label class="label2">Customer service</label></div>
+        <div style="padding-left:175px;"><input type="radio" name="least" style="margin-top:15px;"><label class="label2">Price</label><br/>
+        <input type="radio" name="least" style="margin-top:15px;"><label class="label2">Instalation or first use experience</label></div>
 </div> 
 <div class="main3">
-<p style="padding-top:20px;"><label for="question" style="color:darkred;">Additional comments:</label>
+<p style="padding-top:20px;"><label class="label1" for="question">Additional comments:</label>
     <br>
     
     <textarea id="question" name="question" rows="7" cols="75" style="margin-top:10px;margin-left:28px">Type here...
